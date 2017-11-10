@@ -149,5 +149,15 @@ footer
 }
 
 @media (max-width: 600px), (min-width: 800px) {
-  html { background: red; }
+ body { background: red; }
 }
+
+body {
+	 display: flex;
+	 min-height: 100vh;
+	 flex-direction: column;
+ }
+
+ main {
+	 flex: 10 auto;
+ }
