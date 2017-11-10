@@ -145,4 +145,9 @@ body, html
 footer
 {
 	padding-top: 0px;
+	text-align: justify;
+}
+
+@media (max-width: 600px), (min-width: 800px) {
+  html { background: red; }
 }
